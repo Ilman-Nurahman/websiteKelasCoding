@@ -9,57 +9,93 @@
 </head>
 
 <body>
+
     <!-- NAVIGATION BAR START -->
-    <div class="navbar-container">
+    <div class="navbar-container" sticky-fixed>
         <ul class="ul-navbar">
             <li class="li-navbar">
-                <a href="index.html">HOME</a>
+                <a href="index.html">Home</a>
             </li>
             <li class="li-navbar">
-                <a href="about.html">ABOUT</a>
+                <a href="about.html">Learning</a>
             </li>
             <li class="li-navbar">
-                <a href="program.html">PROGRAM</a>
+                <a href="program.html">Program</a>
+            </li>
             </li>
             <li class="li-navbar">
-                <a href="contact.html">CONTACT</a>
+                <a href="other.html">Other</a>
             </li>
-            <li class="li-navbar">
-                <a href="other.html">OTHER</a>
+            <form class="form-container">
+                <input class="form-control" type="search" placeholder="Cari apa yang ingin kamu pelajari?"
+                    aria-label="Search">
+                <button class="btn-form" type="submit">Search</button>
+            </form>
             </li>
         </ul>
     </div>
+    </div>
     <!-- NAVIGATION BAR END  -->
+
+    <!-- WIDGET CHAT NAVIGATION START -->
+    <div class="message-container">
+        <div class="message-widget">
+            <div class="message-widget-header">
+                <i class="fas fa-comments"></i>Pesan Bantuan
+            </div>
+            <div class="message-widget-body">
+                <div class="message bot">
+                    <div class="message-content">
+                        Ada yang bisa kami bantu seputar kelas coding kami?
+                    </div>
+                </div>
+                <div class="message user">
+                    <div class="message-content">
+                    </div>
+                </div>
+            </div>
+            <div class="message-input">
+                <textarea placeholder="Tulis pesan disini yaa..."></textarea>
+                <button>Kirim</button>
+            </div>
+        </div>
+    </div>
+    <!-- WIDGET CHAT NAVIGATION END -->
+
+    <!-- CONTENT START -->
     <div class="card-container">
         <div class="card">
-            <img src="Source Code png.png">
+            <img src="coding for kids.png" alt="Coding For Kids">
             <div class="card-content">
-                <h3>Card 1</h3>
-                <p>Lorem ipsum dolor sit amet x dolor doloran, dolar juga boleh dah.</p>
-                <a href="" class="btn">Baca coy</a>
+                <h3>Kelas Coding Front-End</h3>
+                <p>Belajar basic ngoding Website 6 Bulan (HTML, CSS, JS)</p>
+                <a href="FormPendaftaranKelas/FormPendaftaran.html" class="btn">Info Lebih lanjut </a>
             </div>
         </div>
     </div>
     <div class="card-container">
         <div class="card">
-            <img src="Source Code png.png">
+            <img src="coding for kids.png">
             <div class="card-content">
-                <h3>Card 1</h3>
+                <h3>Kelas Coding Back-End</h3>
                 <p>Lorem ipsum dolor sit amet x dolor doloran, dolar juga boleh dah.</p>
-                <a href="" class="btn">Baca coy</a>
+                <a href="FormPendaftaranKelas/FormPendaftaran.html" class="btn">Info Lebih Lanjut</a>
             </div>
         </div>
     </div>
     <div class="card-container">
         <div class="card">
-            <img src="Source Code png.png">
+            <img src="coding for kids.png">
             <div class="card-content">
-                <h3>Card 1</h3>
+                <h3>Kelas Coding iOS-App</h3>
                 <p>Lorem ipsum dolor sit amet x dolor doloran, dolar juga boleh dah.</p>
-                <a href="" class="btn">Baca coy</a>
+                <a href="FormPendaftaranKelas/FormPendaftaran.html" class="btn">Info Lebih Lanjut</a>
             </div>
         </div>
     </div>
+    <!-- CONTENT END -->
+
+    <!-- FOOTER START -->
     <footer>
         <div class="footer-container">
             <div class="footer-bottom">
@@ -67,6 +103,7 @@
             </div>
         </div>
     </footer>
+    <!-- FOOTER END -->
 </body>
 
 </html>
